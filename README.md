@@ -1,6 +1,6 @@
 # donut-tester
 
-We have launched a new puppet `wechaty-puppet-donut`. It is ready for testing, and Alpha Testing Volunteers are needed.**
+We have launched a new puppet `wechaty-puppet-donut`. It is ready for testing, and Alpha Testing Volunteers are needed.
 
 Unlike the previous puppet-pad* version, wechaty-puppet-donut is a **windows hook solution**. Compare with puppet-pad*, the new puppet has improvement in some aspect below:
 
