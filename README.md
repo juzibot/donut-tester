@@ -11,6 +11,10 @@ If you want to benefit from all the new features, you are welcomed to apply for 
 
 You can leave a comment under [Issue 1941: [Call for Volunteers] Win32 Puppets: wechaty-puppet-donut is going to ready for testing!](https://github.com/wechaty/wechaty/issues/1941), introduce yourself about who you are and what you want to do (**please DO follow the following TEMPLATE and fill it in details, or you might not be able to be selected**), so that we can be able to add you to the alpha testing list if you are qualified.
 
+## Run
+
+TODO
+
 ## Here is the requirement for the alpha test user
 
 1. Strong willingness & motivation in wechaty-puppet-donut
