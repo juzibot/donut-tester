@@ -13,7 +13,43 @@ You can leave a comment under [Issue 1941: [Call for Volunteers] Win32 Puppets: 
 
 ## Run
 
-TODO
+### Install
+Only need to install wechaty by command:
+```
+npm install wechaty@latest
+```
+
+### Example
+```ts
+import {
+  Wechaty,
+} from 'wechaty'
+
+import QrcodeTerminal from 'qrcode-terminal';
+
+const token = 'PUT_YOUR_TOKEN_HERE'
+
+const bot = new Wechaty({
+  puppet: 'wechaty-puppet-hostie',
+  puppetOptions: {
+    token,
+  }
+});
+
+bot
+  .on('scan', (qrcode) => {
+    QrcodeTerminal.generate(qrcode, {
+      small: true
+    })
+  })
+  .on('login', async user => {
+    console.log(`user: ${JSON.stringify(user)}`)
+  })
+  .on('message', async message => {
+    console.log(`message: ${JSON.stringify(message)}`)
+  })
+  .start()
+```
 
 ## Here is the requirement for the alpha test user
 
