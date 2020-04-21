@@ -16,7 +16,7 @@ You can leave a comment under [Issue 1941: [Call for Volunteers] Win32 Puppets: 
 ### Install
 Only need to install wechaty by command:
 ```
-npm install wechaty@latest
+npm install wechaty@next
 ```
 
 ### Example
