@@ -77,6 +77,16 @@ Adault & Sex
 
 7. I understand that the Wechaty Puppet Donut is in very Early Alpha Stage, and I have the necessary engineering technics to deal with the bugs instead of just asking for support: (Please say YES, then followed by your Name at here)
 
+## Unsupported API List
+> The unsupported api will throw Wechaty Puppet Unsupported API Error.
+
+1. get contact alias
+2. get room member alias
+3. get room QR code
+4. get room announcement
+5. all Tag related methods
+6. get bot qrcode
+
 
 ## Puppet Comparison
 
