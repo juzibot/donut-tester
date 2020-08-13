@@ -83,9 +83,8 @@ Adault & Sex
 1. get contact alias
 2. get room member alias
 3. get room QR code
-4. get room announcement
-5. all Tag related methods
-6. get bot qrcode
+4. all Tag related methods
+5. get bot qrcode
 
 
 ## Puppet Comparison
