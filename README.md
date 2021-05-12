@@ -28,7 +28,7 @@ import QrcodeTerminal from 'qrcode-terminal';
 const token = 'PUT_YOUR_TOKEN_HERE'
 
 const bot = new Wechaty({
-  puppet: 'wechaty-puppet-hostie',
+  puppet: 'wechaty-puppet-service',
   puppetOptions: {
     token,
   }
